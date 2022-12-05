@@ -1,0 +1,120 @@
+.header{
+    font-size: 12px;
+    font-weight: bold;
+}
+.navbar{
+color: white;
+display: justify;
+}
+.logoPc{
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+.container00{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    
+}
+#human{
+    font-size: 7.5rem;
+}
+.display-6{
+    font-size: 2rem
+
+}
+.container00{
+    &.container01{
+        background-image: url(./../../images/humanFlight/01.jpg);
+    }
+    &.container02{
+        background-image: url(./../../images/humanFlight/02.jpg);
+    }
+    &.container03{
+        background-image: url(./../../images/humanFlight/03.jpg);
+    }
+    &.container04{
+        background-image: url(./../../images/humanFlight/04.jpg);
+    }
+    &.container05{
+        background-image: url(./../../images/humanFlight/05.jpg);
+    }
+}
+.containerBar{
+    min-height: 25vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+.titlePadding{
+    padding-top:260px;
+}
+.arrowDown{
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#titleOnRight{
+    text-align: left;
+    width: 650px;
+    align-items: center;
+    padding-top: 260px;
+    margin-left: 1000px;
+   
+}
+#titleOnLeft{
+    text-align: left;
+    padding-top: 260px;
+}
+.shortTitle{
+    font-size: 60px;
+}
+#button{
+    padding: 15px 45px;
+    border: 2px solid white;
+}
+.moreInfo{
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: #b9b9b9;
+        }
+    }
+}
+#button1{
+    padding: 15px 30px;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+.footer{
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    a{
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: #b9b9b9;
+        }
+    }
+}
+
+    
