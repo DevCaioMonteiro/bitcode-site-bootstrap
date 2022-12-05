@@ -1,2 +1,2 @@
-# bitcode-site-bootstrap
+# bitcode-site
 My prototype site
